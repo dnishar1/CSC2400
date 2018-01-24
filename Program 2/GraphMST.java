@@ -74,7 +74,7 @@ public class GraphMST {
 		hmap.put((String) item, num_vertices++);
 		reverseMap.put(num_vertices - 1, (String) item);
 	}
-
+        // Added Prim's Algorithm
 	List<?> prim() {
 		int[] dist, pred;
 		boolean[] visited;
