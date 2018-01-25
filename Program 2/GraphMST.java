@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Set;
 
+// Minimum Spanning Tree Class
 public class GraphMST {
 	private int[] rank, parent;
 	private int max_num_vertices;
