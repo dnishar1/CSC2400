@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-// Minimum Spanning Tree Class
 public class GraphMST {
 	private int[] rank, parent;
 	private int max_num_vertices;
@@ -21,7 +20,8 @@ public class GraphMST {
 	HashMap<String, Integer> hmap = new HashMap<String, Integer>();
 	HashMap<Integer, String> reverseMap = new HashMap<Integer, String>();
 	PriorityQueue<MyEdge> queue = new PriorityQueue<MyEdge>();
-
+	
+	// Minimum Spanning Tree
 	public GraphMST(int max_num_vertices) {
 		this.max_num_vertices = max_num_vertices;
 		adjList = new List[max_num_vertices];
