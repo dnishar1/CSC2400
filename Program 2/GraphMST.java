@@ -186,7 +186,7 @@ public class GraphMST {
 		System.out.println(distances[hmap.get(end_vertex_key)]);
 		return null;
 	}
-
+	// Main method
 	public static void main(String[] args) throws IOException {
 		String preffix = "./src/files/";
 		String line = null;
