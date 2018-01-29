@@ -130,7 +130,7 @@ public class GraphMST {
 		}
 		return prim;
 	}
-
+	// Krushkal's Algorithm
 	List<?> kruskal() {
 		makeSet();
 		Collections.sort(edgeList);
