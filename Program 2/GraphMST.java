@@ -151,7 +151,7 @@ public class GraphMST {
 		}
 		return result;
 	}
-
+	// Shortest Path
 	List<?> shortestPath(String start_vertex_key, String end_vertex_key) {
 		Set<Integer> settled = new HashSet<Integer>();
 		PriorityQueue<MyNode> priorityQueue = new PriorityQueue<>();
