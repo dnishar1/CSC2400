@@ -62,7 +62,7 @@ public class GraphMST {
 			rank[xNode] = rank[xNode] + 1;
 		}
 	}
-
+	// adding the edes to MST
 	public void addEdge(String start_vertex_key, String end_vertex_key, double edge_weight) {
 		int from = hmap.get(start_vertex_key);
 		int to = hmap.get(end_vertex_key);
