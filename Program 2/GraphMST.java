@@ -70,7 +70,7 @@ public class GraphMST {
 		adjListWeight[from].add(edge_weight);
 		edgeList.add(new MyEdge(start_vertex_key, end_vertex_key, (int) edge_weight));
 	}
-
+	// adding the vertex
 	public <T> void addVertex(T item) {
 		hmap.put((String) item, num_vertices++);
 		reverseMap.put(num_vertices - 1, (String) item);
