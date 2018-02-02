@@ -7,8 +7,6 @@
  *  Run: java Graph romanian_cities.txt romanian_mileages.txt
  *  Run: java Graph top_sort_vertices.txt top_sort_edges.txt
  */
- 
-//package myPackage;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
