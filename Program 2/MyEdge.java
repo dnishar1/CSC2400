@@ -13,6 +13,5 @@ public class MyEdge implements Comparable{
 		MyEdge e = (MyEdge)o;
 		if (this.weight > e.weight) return 1;
 		else return -1;
-		// TODO Auto-generated method stub
 	}
 }
